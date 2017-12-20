@@ -1,2 +1,27 @@
-$default-font: "raleway-font", sans-serif;
-$accent: orange;
+
+/* ========  fonts  ========= */
+$default-font: "FuturaNew", sans-serif;
+
+/* ========  colors  ========= */
+$red: #c91c0f;
+
+/* ========  placeholders  ========= */
+%clearfix{
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+%section-height{
+	height: 100vh;
+	min-height: 650px;
+}
+
+%center-block{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}

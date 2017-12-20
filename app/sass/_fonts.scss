@@ -1,6 +1,6 @@
 @import "_mixins/font-face";
 
-@include font-face("raleway-font", "../fonts/RalewayRegular/RalewayRegular");
-@include font-face("raleway-font", "../fonts/RalewayBold/RalewayBold", bold);
-@include font-face("raleway-font", "../fonts/RalewayExtraBold/RalewayExtraBold", 800);
+@include font-face("AngleciaProDisplay", "../fonts/AngleciaProDisplay/AngleciaProDisplayItalic");
+@include font-face("FuturaNew", "../fonts/FuturaNew/FuturaNewBook");
+//@include font-face("raleway-font", "../fonts/RalewayExtraBold/RalewayExtraBold", 800);
 
