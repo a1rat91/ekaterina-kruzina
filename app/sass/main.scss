@@ -95,7 +95,7 @@ li{
 }
 
 section{
-  height: 100vh;
+  //height: 100vh;
 }
 
 /* ========  btns  ========= */
@@ -137,10 +137,15 @@ section{
 /* ========  nav  ========= */
 .nav{
 
+  &__list{
+    margin-right: -15px;
+  }
+
   &__item{
     display: inline-block;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 18px;
+
 
     &:last-child{
       padding-right: 0;
@@ -161,10 +166,15 @@ section{
 /* ========  callback  ========= */
 
 .callback{
+  text-align: right;
 
   &__phone{
     font-size: 22px;
     color: #ffffff;
+    display: block;
+    &-wrap{
+      display: inline-block;
+    }
 
     &:hover{
       color: #ffffff;
@@ -172,6 +182,7 @@ section{
   }
 
   &__link{
+    display: inline-block;
     font-size: 22px;
     font-weight: 500;
     color: $red;
@@ -191,6 +202,20 @@ section{
 
   background: url("../img/main-pic.png")no-repeat left bottom;
 
+  &__content{
+    text-align: right;
+    margin-top: 70px;
+    margin-right: 65px;
+
+    &-wrap{
+      display: inline-block;
+      width: 608px;
+      height: 584px;
+      position: relative;
+
+    }
+  }
+
   &__title{
     font-weight: 300;
     color: #ffffff;
@@ -200,14 +225,11 @@ section{
     text-align: center;
 
 
-    &-wrap{
-      padding: 200px 0 300px;
-      background: url("../img/shapes.png")no-repeat center;
-      height: 740px;
-    }
+
 
     &-strong{
       text-align: center;
+      padding-top: 130px;
       font-family: $anglecia;
       font-size: 30px;
       color: #ffffff;
@@ -220,10 +242,30 @@ section{
       font-weight: 800;
     }
   }
-
-
-
 }
+
+.square{
+
+  height: 556px;
+  width: 556px;
+  position: absolute;
+
+  transform: rotate(70deg);
+}
+
+.square-white{
+  top: 0;
+  left: 0;
+  border: 2px solid #fff;
+}
+
+.square-red{
+  top: 18px;
+  left: 39px;
+  border: 2px solid $red;
+}
+
+
 
 
 @import "media"; //всегда в конце
