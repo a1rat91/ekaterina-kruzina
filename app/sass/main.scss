@@ -164,7 +164,6 @@ section{
 
   &__phone{
     font-size: 22px;
-    font-weight: 700;
     color: #ffffff;
 
     &:hover{
@@ -186,5 +185,45 @@ section{
   }
 
 }
+
+/* ========  main  ========= */
+.main{
+
+  background: url("../img/main-pic.png")no-repeat left bottom;
+
+  &__title{
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 127px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    text-align: center;
+
+
+    &-wrap{
+      padding: 200px 0 300px;
+      background: url("../img/shapes.png")no-repeat center;
+      height: 740px;
+    }
+
+    &-strong{
+      text-align: center;
+      font-family: $anglecia;
+      font-size: 30px;
+      color: #ffffff;
+      display: block;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+    &-span{
+      color: $red;
+      font-weight: 800;
+    }
+  }
+
+
+
+}
+
 
 @import "media"; //всегда в конце

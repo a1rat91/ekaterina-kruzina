@@ -2,5 +2,7 @@
 
 @include font-face("AngleciaProDisplay", "../fonts/AngleciaProDisplay/AngleciaProDisplayItalic");
 @include font-face("FuturaNew", "../fonts/FuturaNew/FuturaNewBook");
+@include font-face("FuturaNew", "../fonts/FuturaNew/FuturaNewBold", 800);
+@include font-face("FuturaNew", "../fonts/FuturaNew/FuturaNewLight", 300);
 //@include font-face("raleway-font", "../fonts/RalewayExtraBold/RalewayExtraBold", 800);
 
