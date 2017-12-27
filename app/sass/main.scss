@@ -199,70 +199,12 @@ section{
 
 /* ========  main  ========= */
 .main{
-
   background: url("../img/main-pic.png")no-repeat left bottom;
 
   &__content{
     text-align: right;
-    margin-top: 70px;
-    margin-right: 65px;
 
-    &-wrap{
-      display: inline-block;
-      width: 608px;
-      height: 584px;
-      position: relative;
-
-    }
   }
-
-  &__title{
-    font-weight: 300;
-    color: #ffffff;
-    font-size: 127px;
-    text-transform: uppercase;
-    line-height: 0.9;
-    text-align: center;
-
-
-
-
-    &-strong{
-      text-align: center;
-      padding-top: 130px;
-      font-family: $anglecia;
-      font-size: 30px;
-      color: #ffffff;
-      display: block;
-      letter-spacing: 1px;
-      font-weight: 300;
-    }
-    &-span{
-      color: $red;
-      font-weight: 800;
-    }
-  }
-}
-
-.square{
-
-  height: 556px;
-  width: 556px;
-  position: absolute;
-
-  transform: rotate(70deg);
-}
-
-.square-white{
-  top: 0;
-  left: 0;
-  border: 2px solid #fff;
-}
-
-.square-red{
-  top: 18px;
-  left: 39px;
-  border: 2px solid $red;
 }
 
 
